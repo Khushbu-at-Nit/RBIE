@@ -1,0 +1,38 @@
+🏦 ICICI Bank Churn Prediction Model
+==================================================
+
+Model Type: RandomForestClassifier
+Number of Features: 11
+
+Features:
+ 1. Age
+ 2. NumOfProducts
+ 3. Balance
+ 4. EstimatedSalary
+ 5. CreditScore
+ 6. IsActiveMember
+ 7. Geography_Germany
+ 8. Tenure
+ 9. Gender_Male
+10. Geography_Spain
+11. HasCrCard
+
+Model Parameters:
+  bootstrap: True
+  ccp_alpha: 0.0
+  class_weight: balanced
+  criterion: gini
+  max_depth: 10
+  max_features: sqrt
+  max_leaf_nodes: None
+  max_samples: None
+  min_impurity_decrease: 0.0
+  min_samples_leaf: 2
+  min_samples_split: 5
+  min_weight_fraction_leaf: 0.0
+  n_estimators: 200
+  n_jobs: None
+  oob_score: False
+  random_state: 42
+  verbose: 0
+  warm_start: False
